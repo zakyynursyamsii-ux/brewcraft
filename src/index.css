@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+.guide-body p > code, .guide-body li > code {
+  font-family: ui-monospace, monospace; font-size: .85em;
+  background: rgba(43, 33, 28, .07); padding: .1em .4em; border-radius: .35em;
+}
